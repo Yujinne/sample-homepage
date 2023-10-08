@@ -16,5 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     imageElement.addEventListener("mouseout", function() {
         imageElement.src = originalImageSrc;
+        
     });
 });
